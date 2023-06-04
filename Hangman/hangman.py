@@ -1,4 +1,5 @@
 import random
+from words import word_list
 
 # no of wrong guesses allowed
 wrong_guess = 6
@@ -6,13 +7,6 @@ wrong_guess = 6
 # guessed letters
 guess =[]
 done = False
-
-# list of all thr words
-word_list = '''ant baboon badger bat bear beaver camel cat clam cobra cougar coyote
-crow deer dog donkey duck eagle ferret fox frog goat goose hawk lion lizard llama
-mole monkey moose mouse mule newt otter owl panda parrot pigeon python rabbit ram
-rat raven rhino salmon seal shark sheep skunk sloth snake spider stork swan tiger
-toad trout turkey turtle weasel whale wolf wombat zebra'''.split()
 
 # picking random words from the word list
 word = (random.choice(word_list)).upper()
