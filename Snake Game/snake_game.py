@@ -1,7 +1,6 @@
 import pygame, random, sys, time
 
 
-
 class Game:
     def __init__(self) -> None:
         # initializing pygame
